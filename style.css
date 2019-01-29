@@ -1,0 +1,1126 @@
+body {
+    margin: 0;
+    font-family: verdana;
+}
+
+#overzicht {
+    background-color: #f7c94a;
+}
+
+h1 span {
+    visibility: hidden;
+    display: grid;
+}
+
+/*header*/
+
+#header {
+    display: flex;
+    height: 4em;
+    background-color: white;
+    margin-top: -1.2em;
+    border-bottom: 2px solid black;
+}
+
+ul:nth-child(3) {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    list-style-type: none;
+    margin-top: 1.5em;
+    margin-right: 4%;
+    padding: 0;
+    background-color: white;
+}
+
+#titel {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style-type: none;
+    margin-top: 1.1em;
+    margin-bottom: 0em;
+    padding: 0em;
+    padding-bottom: 0.35em;
+    background-color: white;
+}
+
+ul:nth-child(1) {
+    width: 85%;
+    list-style-type: none;
+    margin-top: 1.5em;
+    margin-left: 5%;
+    padding: 0;
+    background-color: white;
+}
+
+li article {
+    display: flex;
+    color: #223970;
+    padding: 1em 1em 0.3em;
+    text-decoration: none;
+}
+
+.navtekst {
+    display: flex;
+    margin-top: 0.5em;
+    padding-right: 1em;
+}
+
+
+img[alt="download pagina"] {
+    display: flex;
+    margin-top: 0.4em;
+    padding-right: 1em;
+    max-height: 1.5em;
+}
+
+img[alt="filter"] {
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: 0.6em;
+    margin-left: 1em;
+}
+
+img[alt="terug naar vorige pagina"] {
+    height: 1.4em;
+    margin-top: 0.6em;
+    margin-left: 1em;
+}
+
+/*header*/
+
+/* overzichtspagina*/
+
+img[alt="foto van vrouw in trein"] {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0em;
+    margin-bottom: -0.5em;
+    width: 100%;
+}
+
+section a h2 {
+    text-align: left;
+    margin-left: 0.5em;
+    font-size: 2.5em;
+    margin-bottom: 0em;
+}
+
+section a p {
+    text-align: left;
+    margin-left: 1.5em;
+    width: 90%
+}
+
+h2 {
+    text-align: center;
+}
+
+article img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 8em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#grid {
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
+/* filter*/
+
+section fieldset {
+    position: absolute;
+    display: flex;
+    background-color: gray;
+    margin-left: -15em;
+}
+
+h3 span {
+    font-size: 0.5em;
+}
+
+input:optional {
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+input[type="radio"] {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+
+.filteranimatie {
+    animation: filtermenu 60s;
+}
+
+
+@keyframes filtermenu {
+    0% {}
+
+    1% {
+        margin-left: 15em;
+    }
+
+    100% {
+        margin-left: 15em;
+    }
+}
+
+
+/* filter*/
+
+.thumbnailtekst {
+    max-width: 15em;
+    padding-bottom: 1em;
+    margin-top: 6em
+}
+
+a article {
+    margin-top: -1em;
+    margin-bottom: 2em;
+    background-color: white;
+    max-width: 24em;
+    max-height: 24em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#langetitel {
+    text-align: left;
+    margin-left: 1.3em;
+    margin-top: 2em;
+    font-size: 1em;
+    margin-bottom: -0.5em;
+}
+
+/* overzichtspagina*/
+
+/*login/aanmelden*/
+
+form h2 {
+    text-align: left;
+    margin-bottom: 2em;
+    margin-left: 2em;
+}
+
+form input:required {
+    width: 15em;
+    height: 2em;
+    float: right;
+    border: none;
+}
+
+.inlogknop {
+    display: flex;
+    color: white;
+    background-color: #1a4a8b;
+    width: 12em;
+    height: 3em;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+input[value="aanmelden"] {
+    margin-top: 1em;
+
+}
+
+
+img[alt="logo NS"] {
+    width: 5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+header h1 {
+    margin-top: 0em;
+    text-align: center;
+    color: #223972;
+}
+
+
+form label {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-bottom: 1.5em
+}
+
+
+
+.input {
+    display: block;
+}
+
+form fieldset {
+    padding-top: 1em;
+    background-color: #e7e6e9;
+    border: 0;
+    width: 40%;
+    height: 20em;
+    margin: auto;
+}
+
+#register {
+    margin-top: 1em;
+    text-align: center;
+    display: block;
+}
+
+#aanmelden {
+    margin-top: -0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 17em;
+    text-align: center;
+}
+
+input:not([type="submit"]):valid {
+    background-color: green;
+    color: white;
+}
+
+input:focus {
+    background-color: #cecece;
+    color: black;
+}
+
+
+
+/*login/aanmelden*/
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2b7bcc;
+}
+
+#poepen:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+section article {
+    position: relative;
+}
+
+section article:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 8em;
+    width: 24em;
+    opacity: 0;
+    transition: 1.5s ease;
+    background-color: black;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
+/*detailpagina*/
+
+#detailpagina {
+    background-size: contain;
+}
+
+#detailpagina p {
+    font-size: 12px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    animation: shake .5s;
+    animation-delay: 5s;
+
+}
+
+
+ul:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 1em;
+    height: 2.5em;
+    margin-top: 0em;
+    background-color: blue;
+}
+
+img[alt="titel poepen"] {
+
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1em;
+    max-width: 70%;
+}
+
+img[alt="link naar de comment section"] {
+    display: flex;
+    margin-top: 0.3em;
+}
+
+img[alt="start de download van verhaal"] {
+    display: flex;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+
+
+/* micro interactie dowloaden*/
+
+ul div.silverbalk {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: silver;
+    width: 0px;
+    border-radius: 30px;
+}
+
+ul div.open {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    animation: graybar 5s;
+    transition: 1s;
+}
+
+@keyframes graybar {
+    0% {
+        height: 1.6em;
+        width: 0;
+        margin-top: 0.5em;
+        margin-left: 2em;
+    }
+    10% {
+        width: 80%;
+    }
+    60% {
+        height: 1.6em;
+        width: 80%;
+        margin-left: 2em;
+    }
+    80% {
+        height: 0vw;
+        width: 0vw;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+    100% {
+        height: 0;
+        width: 0;
+        margin-top: 0.5em;
+        margin-left: 13.5em;
+    }
+}
+
+ul div.laadbalk {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    border-radius: 30px;
+
+}
+
+ul div.openDelay {
+    display: flex;
+    justify-content: center;
+    animation: laden 5s;
+    transition-delay: 1s;
+}
+
+@keyframes laden {
+    0% {
+        height: 1.6em;
+        width: 0;
+        margin-top: 0.5em;
+        margin-left: 2em;
+    }
+    10% {
+        width: 0;
+    }
+    60% {
+        height: 1.6em;
+        width: 80%;
+        margin-top: 0.5em;
+        margin-left: 2em;
+    }
+    80% {
+        height: 1em;
+        width: 1em;
+        margin-top: 0.5em;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+
+    100% {
+        height: 1em;
+        width: 1em;
+        margin-top: -3em;
+        margin-left: 75%;
+    }
+
+}
+
+/* micro interactie dowloaden*/
+
+/*detailpagina*/
+
+/*reactie pagina*/
+
+#reactiepagina {
+    background-color: white
+}
+
+
+
+img[alt="terug naar vorige pagina"] {
+    margin-top: 0.5em;
+    max-height: 1.5em
+}
+
+
+
+img[alt="profielfoto gebruiker"] {
+    margin: 1em;
+}
+
+strong {
+    display: grid;
+    font-size: 1em;
+    color: gray;
+    margin-left: -1.5em;
+    padding-bottom: 1em;
+}
+
+article p {
+    text-align: center;
+}
+
+#reageren {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    margin-left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgrey;
+    border-radius: 0em;
+}
+
+img[alt="profielfoto eigen account"] {
+    margin: 0;
+}
+
+img ~ label input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 1em;
+    border-radius: 2em;
+}
+
+input[value="versturen"] {
+    height: 3em;
+    margin-top: 1em;
+    background-color: white;
+    right: 0;
+
+}
+
+
+
+
+
+
+/*reactie pagina*/
+
+.comment {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid silver;
+    border-radius: 0em;
+}
+
+.comments {
+    animation: comments 60s;
+}
+
+
+
+@keyframes comments {
+    0% {}
+    10% {
+        margin-top: 5em
+    }
+    100% {
+        margin-top: 5em
+    }
+
+}
+
+.test {
+    display: flex;
+    animation: reageren 60s;
+
+}
+
+.ding {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid silver;
+    border-radius: 0em;
+    visibility: hidden;
+}
+
+@keyframes reageren {
+
+    0% {
+        margin-top: 23em;
+        visibility: visible;
+    }
+    10% {
+        width: 100%;
+        margin-top: -16.4em;
+        margin-left: 0;
+        margin-bottom: 0.5em;
+        border-bottom: 1px solid silver;
+        border-radius: 0em;
+        visibility: visible;
+    }
+    100% {
+        width: 100%;
+        margin-top: -16.5em;
+        margin-left: 0;
+        margin-bottom: 0.5em;
+        border-bottom: 1px solid silver;
+        border-radius: 0em;
+        visibility: visible;
+    }
+}
+
+
+
+img[alt="thumbnail verhaal poepen"] {
+    margin: 0;
+    max-height: 10em;
+}
+
+#filter {
+    background-color: #f7c94a;
+}
+
+img[alt="interactie 1"] {
+    width: 100%;
+    position: absolute;
+}
+
+img[alt="interactie 2"] {
+    width: 100%;
+    visibility: hidden;
+}
+
+img[alt="interactie 3"] {
+    width: 100%;
+    visibility: hidden;
+}
+
+
+/*reactiepagina*/
+
+/*
+.detailpagina p {
+}
+
+.detailpagina p:nth-of-type(1) {
+    transform:  rotate(-38deg);
+    margin-top: -7em;;
+    margin-left: -1em;
+}
+
+.detailpagina p:nth-of-type(2) {
+    transform:  rotate(-38deg);
+    margin-top: -1em;;
+    margin-left: -1em;
+}
+
+.detailpagina p:nth-of-type(3) {
+      transform:  rotate(-38deg);
+    margin-top: -1em;;
+    margin-left: -1em;
+}
+
+.detailpagina p:nth-of-type(4) {
+ transform:  rotate(-38deg);
+    margin-top: -1em;;
+    margin-left: -1em;
+}
+
+.detailpagina p:nth-of-type(5) {
+ transform:  rotate(-38deg);
+    margin-top: -1em;;
+    margin-left: -1em;
+}
+
+.detailpagina p:nth-of-type(6) {
+ transform:  rotate(-38deg);
+    margin-top: -1em;;
+    margin-left: -1em;
+}
+
+.detailpagina p:nth-of-type(7) {
+ transform:  rotate(-38deg);
+    margin-top: -1em;;
+    margin-left: -1em;
+}
+
+.detailpagina p:nth-of-type(8) {
+ transform:  rotate(-1deg);
+    font-size: 1.6em;
+    margin-top: -1.5em;;
+    margin-left: 6.5em;
+*/
+
+@media (min-width:50em) {
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    @keyframes laden {
+        0% {
+            height: 1.6em;
+            width: 0;
+            margin-top: 0.5em;
+            margin-left: 2em;
+        }
+        10% {
+            width: 0;
+        }
+        60% {
+            height: 1.6em;
+            width: 80%;
+            margin-top: 0.5em;
+            margin-left: 2em;
+        }
+        80% {
+            height: 1em;
+            width: 1em;
+            margin-top: 0.5em;
+            margin-left: 50%;
+            margin-right: 50%;
+        }
+
+        95% {
+            height: 1em;
+            width: 1em;
+            margin-top: -3em;
+            margin-left: 80%;
+        }
+
+        100% {
+            height: 1em;
+            width: 1em;
+            margin-top: -3em;
+            margin-left: 80%;
+        }
+
+    }
+
+    #detailpagina p {
+        max-width: 60%;
+    }
+    .comment {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .ding {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    @keyframes reageren {
+
+        0% {
+            margin-top: 23em;
+            margin-left: 8em;
+            visibility: visible;
+        }
+        10% {
+            width: 100%;
+            margin-top: -16.4em;
+            margin-left: 8em;
+            ;
+            margin-bottom: 0.5em;
+            border-bottom: 1px solid silver;
+            border-radius: 0em;
+            visibility: visible;
+        }
+        100% {
+            width: 100%;
+            margin-top: -16.5em;
+            margin-left: 8em;
+            margin-bottom: 0.5em;
+            border-bottom: 1px solid silver;
+            border-radius: 0em;
+            visibility: visible;
+        }
+    }
+
+    img[alt="profielfoto eigen account"] {
+        margin: 0;
+        margin-right: -10em;
+    }
+    img ~ label input {
+        width: 150%;
+    }
+
+    img[alt="interactie 1"] {
+        width: 100%;
+        visibility: hidden;
+        position: absolute;
+    }
+    img[alt="interactie 2"] {
+        width: 100%;
+        visibility: visible;
+    }
+
+    img[alt="interactie 3"] {
+        width: 100%;
+        visibility: hidden;
+        position: absolute;
+    }
+
+}
+
+@media (min-width:63em) {
+    h1 span {
+        visibility: visible;
+        display: inline;
+    }
+
+
+}
+
+@media (min-width:74em) {
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+
+    @keyframes laden {
+        0% {
+            height: 1.6em;
+            width: 0;
+            margin-top: 0.5em;
+            margin-left: 2em;
+        }
+        10% {
+            width: 0;
+        }
+        60% {
+            height: 1.6em;
+            width: 80%;
+            margin-top: 0.5em;
+            margin-left: 2em;
+        }
+        80% {
+            height: 1em;
+            width: 1em;
+            margin-top: 0.5em;
+            margin-left: 50%;
+            margin-right: 50%;
+        }
+
+        95% {
+            height: 1em;
+            width: 1em;
+            margin-top: -3em;
+            margin-left: 87%;
+        }
+        100% {
+            height: 1em;
+            width: 1em;
+            margin-top: -3em;
+            margin-left: 87%;
+        }
+    }
+
+    #detailpagina p {
+        font-size: 1.5em;
+        max-width: 60%;
+    }
+
+    .comment {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .ding {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @keyframes reageren {
+
+        0% {
+            margin-top: 23em;
+            margin-left: 8em;
+            visibility: visible;
+        }
+        10% {
+            width: 100%;
+            margin-top: -16.4em;
+            margin-left: 8em;
+            margin-bottom: 0.5em;
+            border-bottom: 1px solid silver;
+            border-radius: 0em;
+            visibility: visible;
+        }
+        100% {
+            width: 100%;
+            margin-top: -16.5em;
+            margin-left: 8em;
+            margin-bottom: 0.5em;
+            border-bottom: 1px solid silver;
+            border-radius: 0em;
+            visibility: visible;
+        }
+    }
+    img[alt="profielfoto eigen account"] {
+        margin: 0;
+        margin-right: -10em;
+    }
+    img ~ label input {
+        width: 200%;
+    }
+
+    img[alt="interactie 1"] {
+        width: 100%;
+        visibility: hidden;
+    }
+    img[alt="interactie 2"] {
+        width: 100%;
+        visibility: hidden;
+                position: absolute;
+    }
+
+    img[alt="interactie 3"] {
+        width: 100%;
+        visibility: visible;
+    }
+
+}
+
+@media (min-width:80em) {
+
+    @keyframes laden {
+        0% {
+            height: 1.6em;
+            width: 0;
+            margin-top: 0.5em;
+            margin-left: 2em;
+        }
+        10% {
+            width: 0;
+        }
+        60% {
+            height: 1.6em;
+            width: 80%;
+            margin-top: 0.5em;
+            margin-left: 2em;
+        }
+        80% {
+            height: 1em;
+            width: 1em;
+            margin-top: 0.5em;
+            margin-left: 50%;
+            margin-right: 50%;
+        }
+
+        95% {
+            height: 1em;
+            width: 1em;
+            margin-top: -3em;
+            margin-left: 90%;
+        }
+        100% {
+            height: 1em;
+            width: 1em;
+            margin-top: -3em;
+            margin-left: 90%;
+        }
+    }
+}
+
+@media (min-width:60em) {
+
+    @keyframes laden {
+        0% {
+            height: 1.6em;
+            width: 0;
+            margin-top: 0.5em;
+            margin-left: 2em;
+        }
+        10% {
+            width: 0;
+        }
+        60% {
+            height: 1.6em;
+            width: 80%;
+            margin-top: 0.5em;
+            margin-left: 2em;
+        }
+        80% {
+            height: 1em;
+            width: 1em;
+            margin-top: 0.5em;
+            margin-left: 50%;
+            margin-right: 50%;
+        }
+
+        95% {
+            height: 1em;
+            width: 1em;
+            margin-top: -3em;
+            margin-left: 86%;
+        }
+        100% {
+            height: 1em;
+            width: 1em;
+            margin-top: -3em;
+            margin-left: 86%;
+        }
+    }
+}
+
+@media (min-width:50em) {
+    @keyframes laden {
+        0% {
+            height: 1.6em;
+            width: 0;
+            margin-top: 0.5em;
+            margin-left: 2em;
+        }
+        10% {
+            width: 0;
+        }
+        60% {
+            height: 1.6em;
+            width: 80%;
+            margin-top: 0.5em;
+            margin-left: 2em;
+        }
+        80% {
+            height: 1em;
+            width: 1em;
+            margin-top: 0.5em;
+            margin-left: 50%;
+            margin-right: 50%;
+        }
+
+        95% {
+            height: 1em;
+            width: 1em;
+            margin-top: -3em;
+            margin-left: 84%;
+        }
+        100% {
+            height: 1em;
+            width: 1em;
+            margin-top: -3em;
+            margin-left: 84%;
+        }
+    }
+}
